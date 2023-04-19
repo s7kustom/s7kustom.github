@@ -18,11 +18,10 @@ body {
     display: flex;
     position: relative;
     align-items: center;
-
     width: auto;
     height: 20em;
-    background-color: blue;
-    border: 1px solid black;
+    background-color: #052767;
+    color: white;
 }
 
 .picture {
@@ -33,7 +32,6 @@ body {
 }
 
 .infos {
-    align-items: center;
     margin-left: 3em;
 }
 
@@ -42,81 +40,67 @@ body {
     margin-left: 25em;
 }
 
+.name {
+    font-size: 2.5em
+}
+
+.fa-phone{
+    color:red;
+}
+
+.fa-location-dot{
+    color:red;
+}
+
+.fa-envelope{
+    color:red;
+}
+
 .description-container {
     text-align: justify;
     padding-top: 1em;
     padding-left: 5em;
     padding-right: 5em;
-    background-color: coral;
-    border: 1px solid black;
 }
 
-.container-one {
-    align-items: center;
-    display: flex;
-    padding-left: 5em;
-    padding-right: 5em;
-    background-color: pink;
-    border: 1px solid black;
-    height: 5em;
-    position: relative;
-    justify-content: space-between;
+.grid-containerone {
+      display: grid;
+      column-gap: 100px;
+      grid-template-columns: 300fr 300fr 300fr;
+      align-items: center;
+      padding-left: 5em;
+}
+
+.lang-height {
+
 }
 
 .bordered {
-    padding-left: 4em;
-    background-color: pink;
-    border: 1px solid black;
+    margin-left: 4em;
+    width: 56em;
+    border-bottom: 1px solid black;
 }
 
-.align-info {
-   line-height: 1px;
+.grid-containertwo {
+      display: grid;
+      column-gap: 100px;
+      grid-template-columns: 300fr 300fr;
+      align-items: center;
+      padding-left: 5em;
 }
 
-.container-two {
-    align-items: center;
-    display: flex;
-    padding-left: 5em;
-    padding-right: 5em;
-    background-color: pink;
-    border: 1px solid black;
-    height: 6em;
-    position: relative;
-    justify-content: space-between;
-    line-height: 2px;
-}
-
-.container-three {
-    align-items: center;
-    display: flex;
-    padding-left: 5em;
-    padding-right: 5em;
-    background-color: pink;
-    border: 1px solid black;
-    height: 10em;
-    position: relative;
-    justify-content: space-between;
+.grid-containerthree {
+      display: grid;
+      column-gap: 100px;
+      grid-template-columns: 300fr 300fr;
+      align-items: center;
+      padding-left: 5em;
 }
 
 .container-four {
     padding-left: 5em;
     padding-right: 5em;
-    background-color: pink;
-    border: 1px solid black;
     height: 8em;
     position: relative;
 }
 
-.box {
-  height: 150px;
-}
-
-.containeur {
-    height: 18em;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    justify-content: space-between;
-    background-color: blue;
-    padding-left: 2em;
-}

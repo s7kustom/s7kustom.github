@@ -8,13 +8,12 @@
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
-!!!!!!!!!!!!!!!!!!!!!!REFAIRE TOUS LES CONTAINER AVEC GRID ET FLEX!!!!!!!!!!!!!!!!!!! EXEMPLE DU 1ER ....................... NIQUE ZEEEBBBBIIIIII!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 <header>
     <div class="container">
         <img class="picture" src="images/image.jpeg" alt="Photo de profil"/>
         <div class="infos"> <!-- Gerer soucis de marge entre photo et texte-->
-            <p>Prénom</p>
-            <p class="bold">Nom</p>
+            <p class="name">Prénom</p>
+            <p class="name bold">NOM</p>
             <p class="italic">"Poste occupé/recherché"</p>
         </div>
         <div class="infostwo">
@@ -26,7 +25,7 @@
 </header>
 
 <div class="description-container">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
     type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
     remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
@@ -36,27 +35,32 @@
 
 <main>
     <h3 class="bordered">COMPETENCES ET LANGUES</h3>
-    <div class="container-one">
-        <div>
+    <div class="grid-containerone">
+        <div> <!-- Gerer soucis de marge entre photo et texte-->
             <li>Gestion du stress</li>
             <li>Revisions de textes</li>
             <li>Travail d'équipe</li>
         </div>
-        <div class="align-info">
-            <p>Anglais<progress id="file" value="100" max="100"> 100%</progress></p>
-            <p>Espagnol<progress id="file" value="80" max="100"> 80%</progress></p>
-            <p>Allemand<progress id="file" value="50" max="100"> 50%</progress></p>
+        <div class="lang-height">
+            <p>Anglais
+                <progress id="file" value="100" max="100"> 100%</progress>
+            </p>
+            <p>Espagnol
+                <progress id="file" value="80" max="100"> 80%</progress>
+            </p>
+            <p>Allemand
+                <progress id="file" value="50" max="100"> 50%</progress>
+            </p>
         </div>
         <div>
-            Logiciels: Excel, Word,<br>
+            <span class="bold">Logiciels:</span> Excel, Word,<br>
             Powerpoint, Outlook, Photoshop<br>
             Illustrator, Wordpress
         </div>
     </div>
 
-
     <h3 class="bordered">FORMATIONS</h3>
-    <div class="container-two">
+    <div class="grid-containertwo">
         <div>
             <p>2009-2011</p>
             <p>bla bla</p>
@@ -64,53 +68,51 @@
             <p>bla bla</p>
         </div>
         <div class="align-center">
-            <p>DIPLOME XXXXXXXXXXXXXXXXXXX XXXXX</p>
-            <p>bla bla bla</p>
-            <p>DIPLOME XXXXXXXXXXXXXXXXXXX XXXXX</p>
-            <p>bla bla bla</p>
+            <p class="bold">DIPLOME XXXXXXXXXXXXXXXXXXX XXXXXXXXXX</p>
+            <p class="italic">bla bla bla</p>
+            <p class="bold">DIPLOME XXXXXXXXXXXXXXXXXXX XXXXXXXXXX</p>
+            <p class="italic">bla bla bla</p>
         </div>
     </div>
 
     <h3 class="bordered">EXPERIENCE PERSONNELLE</h3>
-    <div class="container-three">
+    <div class="grid-containerthree">
         <div>
             <p>2009-2011</p>
             <p>bla bla</p>
         </div>
         <div class="align-center">
-            <p>NOM DE L'ENTREPRISE</p>
-            <p>Taches réalisées</p>
-            <li>Lorem Ipsum is simply dummy text of the printing .</li>
-            <li>Lorem Ipsum is simply dummy text of the printing .</li>
-            <li>Lorem Ipsum is simply dummy text of the printing .</li>
+            <p class="bold">NOM DE L'ENTREPRISE</p>
+            <p class="bold">Taches réalisées</p>
+            <li>Lorem Ipsum is simply dummy text of the printing Lorem Ipsu.</li>
+            <li>Lorem Ipsum is simply dummy text of the printing Lorem Ipsu.</li>
+            <li>Lorem Ipsum is simply dummy text of the printing Lorem Ipsu.</li>
         </div>
     </div>
-
-    <div class="container-three">
+    <div class="grid-containerthree">
         <div>
             <p>2009-2011</p>
             <p>bla bla</p>
         </div>
         <div class="align-center">
-            <p>NOM DE L'ENTREPRISE</p>
-            <p>Taches réalisées</p>
-            <li>Lorem Ipsum is simply dummy text of the printing .</li>
-            <li>Lorem Ipsum is simply dummy text of the printing .</li>
-            <li>Lorem Ipsum is simply dummy text of the printing .</li>
+            <p class="bold">NOM DE L'ENTREPRISE</p>
+            <p class="bold">Taches réalisées</p>
+            <li>Lorem Ipsum is simply dummy text of the printing Lorem Ipsu.</li>
+            <li>Lorem Ipsum is simply dummy text of the printing Lorem Ipsu.</li>
+            <li>Lorem Ipsum is simply dummy text of the printing Lorem Ipsu.</li>
         </div>
     </div>
-
-    <div class="container-three">
+    <div class="grid-containerthree">
         <div>
             <p>2009-2011</p>
             <p>bla bla</p>
         </div>
         <div class="align-center">
-            <p>NOM DE L'ENTREPRISE</p>
-            <p>Taches réalisées</p>
-            <li>Lorem Ipsum is simply dummy text of the printing .</li>
-            <li>Lorem Ipsum is simply dummy text of the printing .</li>
-            <li>Lorem Ipsum is simply dummy text of the printing .</li>
+            <p class="bold">NOM DE L'ENTREPRISE</p>
+            <p class="bold">Taches réalisées</p>
+            <li>Lorem Ipsum is simply dummy text of the printing Lorem Ipsu.</li>
+            <li>Lorem Ipsum is simply dummy text of the printing Lorem Ipsu.</li>
+            <li>Lorem Ipsum is simply dummy text of the printing Lorem Ipsu.</li>
         </div>
     </div>
 </main>
@@ -123,5 +125,6 @@
         <p><i class="fa-solid fa-check"></i>Bénévole</p>
     </div>
 </footer>
+
 </body>
 </html>
