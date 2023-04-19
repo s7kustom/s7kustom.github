@@ -13,15 +13,12 @@ body {
     font-style: italic;
 }
 
-.align-items {
-
-}
 
 .container {
     display: flex;
     position: relative;
     align-items: center;
-    justify-content: space-evenly;
+
     width: auto;
     height: 20em;
     background-color: blue;
@@ -32,10 +29,17 @@ body {
     height: 15.625em;
     width: 15.625em;
     border-radius: 50%;
+    margin-left: 5em;
 }
 
 .infos {
+    align-items: center;
+    margin-left: 3em;
+}
 
+.infostwo {
+    align-items: center;
+    margin-left: 25em;
 }
 
 .description-container {
@@ -103,3 +107,16 @@ body {
     position: relative;
 }
 
+.box {
+  height: 150px;
+}
+
+.containeur {
+    height: 18em;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    padding-left: 2em;
+}
