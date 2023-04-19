@@ -1,8 +1,23 @@
 body{
-
+    background-color: green;
 }
 
-.bigtitle{
-    font-size: 30px;
+.container{
+    display: flex;
+    position: relative;
+    width: auto;
+    height: 20em;
+    background-color: blue;
 }
 
+.picture{
+    margin-top: 2em;
+    margin-left: 5em;
+    height: 15.625em;
+    width: 15.625em;
+    border-radius: 50%;
+}
+
+h1{ /* ca me plait pas */
+    margin-left: 5em;
+}
