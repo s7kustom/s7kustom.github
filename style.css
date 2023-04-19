@@ -1,23 +1,51 @@
-body{
+body {
     background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75em;
 }
 
-.container{
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.container {
     display: flex;
     position: relative;
+    align-items: center;
+    justify-content: space-around;
     width: auto;
     height: 20em;
     background-color: blue;
+    border: 1px solid black;
 }
 
-.picture{
-    margin-top: 2em;
-    margin-left: 5em;
+.picture {
     height: 15.625em;
     width: 15.625em;
     border-radius: 50%;
 }
 
-h1{ /* ca me plait pas */
-    margin-left: 5em;
+.infos {
+
+}
+
+.description-container {
+    text-align: justify;
+    padding-top: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: coral;
+    border: 1px solid black
+}
+
+.container-std {
+    background-color: yellow;
+    border: 1px solid black;
+
+
 }
