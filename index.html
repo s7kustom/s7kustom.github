@@ -4,24 +4,24 @@
     <meta charset="utf-8">
     <title>Premier Projet</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
 <header>
     <div class="container">
         <img class="picture" src="images/image.jpeg" alt="Photo de profil"/>
-        <div class="infos">
+        <div class="infos"> <!-- Gerer soucis de marge entre photo et texte-->
             <h2>Prénom</h2>
             <h2 class="bold">NOM</h2>
             <p class="italic">"Poste occupé/recherché"</p>
         </div>
         <div>
-            <p>Télèphone</p>
-            <p>Lieu</p>
-            <p>Email</p>
+            <p>Télèphone<i class="fa-solid fa-phone"></i></p>
+            <p>Lieu<i class="fa-solid fa-location-dot"></i></p>
+            <p>Email<i class="fa-regular fa-envelope"></i></p>
         </div>
     </div>
 </header>
-
 
 <div class="description-container">
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -32,11 +32,94 @@
     Lorem Ipsum</p>
 </div>
 
-
-    <div class="container-std>">
-        <h3>COMPETENCES ET LANGUES</h3>
+<main>
+    <h3 class="bordered">COMPETENCES ET LANGUES</h3>
+    <div class="container-one">
+        <div>
+            <li>Gestion du stress</li>
+            <li>Revisions de textes</li>
+            <li>Travail d'équipe</li>
+        </div>
+        <div class="align-info">
+            <p>Anglais<progress id="file" value="100" max="100"> 100% </progress></p>
+            <p>Espagnol<progress id="file" value="80" max="100"> 80% </progress></p>
+            <p>Allemand<progress id="file" value="50" max="100"> 50% </progress></p>
+        </div>
+        <div>
+            Logiciels: Excel, Word,<br>
+            Powerpoint, Outlook, Photoshop<br>
+            Illustrator, Wordpress
+        </div>
     </div>
 
 
+    <h3 class="bordered">FORMATIONS</h3>
+    <div class="container-two">
+        <div>
+            <p>2009-2011</p>
+            <p>bla bla</p>
+            <p>2011-2013</p>
+            <p>bla bla</p>
+        </div>
+        <div class="align-center">
+            <p>DIPLOME XXXXXXXXXXXXXXXXXXX XXXXX</p>
+            <p>bla bla bla</p>
+            <p>DIPLOME XXXXXXXXXXXXXXXXXXX XXXXX</p>
+            <p>bla bla bla</p>
+        </div>
+    </div>
+
+    <h3 class="bordered">EXPERIENCE PERSONNELLE</h3>
+    <div class="container-three">
+        <div>
+            <p>2009-2011</p>
+            <p>bla bla</p>
+        </div>
+        <div class="align-center">
+            <p>NOM DE L'ENTREPRISE</p>
+            <p>Taches réalisées</p>
+            <li>Lorem Ipsum is simply dummy text of the printing .</li>
+            <li>Lorem Ipsum is simply dummy text of the printing .</li>
+            <li>Lorem Ipsum is simply dummy text of the printing .</li>
+        </div>
+    </div>
+
+    <div class="container-three">
+        <div>
+            <p>2009-2011</p>
+            <p>bla bla</p>
+        </div>
+        <div class="align-center">
+            <p>NOM DE L'ENTREPRISE</p>
+            <p>Taches réalisées</p>
+            <li>Lorem Ipsum is simply dummy text of the printing .</li>
+            <li>Lorem Ipsum is simply dummy text of the printing .</li>
+            <li>Lorem Ipsum is simply dummy text of the printing .</li>
+        </div>
+    </div>
+
+    <div class="container-three">
+        <div>
+            <p>2009-2011</p>
+            <p>bla bla</p>
+        </div>
+        <div class="align-center">
+            <p>NOM DE L'ENTREPRISE</p>
+            <p>Taches réalisées</p>
+            <li>Lorem Ipsum is simply dummy text of the printing .</li>
+            <li>Lorem Ipsum is simply dummy text of the printing .</li>
+            <li>Lorem Ipsum is simply dummy text of the printing .</li>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <h3 class="bordered">INTERETS</h3>
+    <div class="container-four">
+        <p><i class="fa-solid fa-check"></i>Voyager, Europe</p>
+        <p><i class="fa-solid fa-check"></i>Sport, natation</p>
+        <p><i class="fa-solid fa-check"></i>Bénévole</p>
+    </div>
+</footer>
 </body>
 </html>

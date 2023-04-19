@@ -13,11 +13,15 @@ body {
     font-style: italic;
 }
 
+.align-items {
+
+}
+
 .container {
     display: flex;
     position: relative;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: auto;
     height: 20em;
     background-color: blue;
@@ -40,12 +44,62 @@ body {
     padding-left: 5em;
     padding-right: 5em;
     background-color: coral;
-    border: 1px solid black
-}
-
-.container-std {
-    background-color: yellow;
     border: 1px solid black;
-
-
 }
+
+.container-one {
+    align-items: center;
+    display: flex;
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: pink;
+    border: 1px solid black;
+    height: 5em;
+    position: relative;
+    justify-content: space-between;
+}
+
+.bordered {
+    padding-left: 4em;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.align-info {
+   line-height: 1px;
+}
+
+.container-two {
+    align-items: center;
+    display: flex;
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: pink;
+    border: 1px solid black;
+    height: 6em;
+    position: relative;
+    justify-content: space-between;
+    line-height: 2px;
+}
+
+.container-three {
+    align-items: center;
+    display: flex;
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: pink;
+    border: 1px solid black;
+    height: 10em;
+    position: relative;
+    justify-content: space-between;
+}
+
+.container-four {
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: pink;
+    border: 1px solid black;
+    height: 8em;
+    position: relative;
+}
+
