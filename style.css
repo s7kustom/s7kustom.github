@@ -41,19 +41,20 @@ body {
 }
 
 .name {
-    font-size: 2.5em
+    font-size: 4.5em;
+    line-height: 10px;
 }
 
 .fa-phone{
-    color:red;
+    color: orange;
 }
 
 .fa-location-dot{
-    color:red;
+    color: orange;
 }
 
 .fa-envelope{
-    color:red;
+    color: orange;
 }
 
 .description-container {
