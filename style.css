@@ -10,6 +10,7 @@ body {
     width: 75em;
     border: 1px solid black;
     font-family: 'Roboto', sans-serif;
+    /*padding:30px;*/
 }
 
 .bold {
