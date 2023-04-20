@@ -60,7 +60,6 @@ body {
 
 .description-container {
     text-align: justify;
-    padding-top: 1em;
     padding-left: 5em;
     padding-right: 5em;
 }
@@ -68,14 +67,25 @@ body {
 .grid-containerone {
       display: grid;
       column-gap: 100px;
-      grid-template-columns: 300fr 300fr 300fr;
+      grid-template-columns: auto auto auto auto;
       align-items: center;
       padding-left: 5em;
 }
 
-.lang-height {
-
+.progress-container {
+    background-color: grey;
+    height: 8px;
+    width: 10em;
+    border-radius: 25px;
 }
+
+.value {
+    background-color: red;
+    width: 5em;
+    height: 8px;
+    border-radius: 50px;
+}
+
 
 .bordered {
     margin-left: 2.8em;
@@ -105,4 +115,18 @@ body {
     height: 8em;
     position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
