@@ -3,6 +3,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 75em;
+    border: 1px solid black;
 }
 
 .bold {
@@ -77,8 +78,8 @@ body {
 }
 
 .bordered {
-    margin-left: 4em;
-    width: 56em;
+    margin-left: 2.8em;
+    width: 44em;
     border-bottom: 1px solid black;
 }
 
