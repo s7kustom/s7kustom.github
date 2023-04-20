@@ -106,8 +106,7 @@ body {
 
 .grid-containertwo {
       display: grid;
-      grid-template-columns: 200fr 300fr;
-      align-items: center;
+      grid-template-columns: 100fr 300fr;
       padding-left: 5em;
       padding-right: 5em;
 }
@@ -115,10 +114,10 @@ body {
 
 .grid-containerthree {
       display: grid;
-      grid-template-columns: 200fr 300fr;
-      align-items: center;
+      grid-template-columns: 100fr 300fr;
       padding-left: 5em;
       padding-right: 5em;
+
 }
 
 .container-four {
