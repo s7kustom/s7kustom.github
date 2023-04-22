@@ -10,14 +10,14 @@
 </head>
 <body>
 <header>
-    <div class="container">
+    <div class="header">
         <img class="picture" src="images/image.jpeg" alt="Photo de profil"/>
         <div> <!-- Gerer soucis de marge entre photo et texte-->
             <p class="name">Prénom</p>
             <p class="name bold">NOM</p>
             <p class="italic infos">"Poste occupé/recherché"</p>
         </div>
-        <div class="infostwo">
+        <div class="infos">
             <p>Téléphone<i class="fa-solid fa-phone"></i></p>
             <p>Lieu<i class="fa-solid fa-location-dot"></i></p>
             <p>E-mail<i class="fa-regular fa-envelope"></i></p>
@@ -25,7 +25,7 @@
     </div>
 </header>
 
-<div class="description-container">
+<div class="description">
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
         type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
@@ -34,23 +34,26 @@
 
 <main>
     <h2 class="bordered">COMPETENCES ET LANGUES</h2>
-    <div class="grid-containerone">
-        <div class="test"> <!-- Gerer soucis de marge entre photo et texte-->
+    <div class="skills">
+        <div>
             <li>Gestion du stress</li>
             <li>Revisions de textes</li>
             <li>Travail d'équipe</li>
         </div>
-        <div>
-            <p>anglais<br>allemand<br>espagnol</p>
+        <div class="test">
+            <!-- ICI c'est le zbEUle, comment réduire l'écart entre 3 <p></p> ou <i></i> qui remplaceraient un <br> IDEM "interest #132"-->
+            anglais<br>
+            allemand<br>
+            espagnol</p>
         </div>
         <div>
-            <div class="progress-container">
+            <div class="progressbar">
                 <div class="valueone"></div>
             </div>
-            <div class="progress-container">
+            <div class="progressbar">
                 <div class="valuetwo"></div>
             </div>
-            <div class="progress-container">
+            <div class="progressbar">
                 <div class="valuethree"></div>
             </div>
             <!--<div class="progress-container">
@@ -68,7 +71,7 @@
     </div>
 
     <h2 class="bordered">FORMATIONS</h2>
-    <div class="grid-containertwo">
+    <div class="training">
         <div>
             <p>2009-2011</p>
             <p>bla bla</p>
@@ -84,7 +87,7 @@
     </div>
 
     <h2 class="bordered">EXPERIENCE PERSONNELLE</h2>
-    <div class="grid-containerthree">
+    <div class="exp">
         <div>
             <p>2009-2011</p>
             <p>bla bla</p>
@@ -97,7 +100,7 @@
             <li>Lorem Ipsumo is simply dummy text of the printing Lorem Ipsum this Lorem Ipsumo is Lore.</li>
         </div>
     </div>
-    <div class="grid-containerthree">
+    <div class="exp">
         <div>
             <p>2009-2011</p>
             <p>bla bla</p>
@@ -110,12 +113,12 @@
             <li>Lorem Ipsumo is simply dummy text of the printing Lorem Ipsum this Lorem Ipsumo is Lore.</li>
         </div>
     </div>
-    <div class="grid-containerthree">
+    <div class="exp">
         <div>
             <p>2009-2011</p>
             <p>bla bla</p>
         </div>
-        <div class="align-center">
+        <div>
             <p class="bold">NOM DE L'ENTREPRISE</p>
             <p class="bold">Taches réalisées</p>
             <li>Lorem Ipsumo is simply dummy text of the printing Lorem Ipsum this Lorem Ipsumo is Lore.</li>
@@ -126,11 +129,18 @@
 </main>
 
 <footer>
-    <h2 class="bordered">INTERETS</h2>
-    <div class="container-four">
-        <p><i class="fa-solid fa-check"></i>Voyager, Europe</p>
-        <p><i class="fa-solid fa-check"></i>Sport, natation</p>
-        <p><i class="fa-solid fa-check"></i>Bénévole</p>
+    <h2 class="bordered">INTERETS</h2>  <!-- MAYDAY!!!!!, comment réduire l'écart entre 3 <p></p> ou <i></i> qui remplaceraient un <br> maléfique (voir plus haut #45,46,47)-->
+    <div class="interest">
+        <div class="icon">
+            <i class="fa-solid fa-check"></i>
+            <i class="fa-solid fa-check"></i>
+            <i class="fa-solid fa-check"></i>
+        </div>
+        <div class="text">
+            <p>Voyager, Europe</p>
+            <p>Sport, natation</p>
+            <p>Bénévole</p>
+        </div>
     </div>
 </footer>
 </body>

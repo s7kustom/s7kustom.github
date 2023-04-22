@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="459df0c1-50db-4cdb-85d7-63b1d493844b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -286,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682182762518</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="backup">
+      <created>1682182907379</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1682182907379</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -311,13 +320,13 @@
     <MESSAGE value="update README.md" />
     <MESSAGE value="backup avant resizing body" />
     <MESSAGE value="update mise en page" />
-    <MESSAGE value="backup" />
     <MESSAGE value="modif header" />
     <MESSAGE value="Replace image" />
     <MESSAGE value="back up" />
     <MESSAGE value="progressbar" />
     <MESSAGE value="Résolution icone index" />
     <MESSAGE value="MAJ README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="MAJ README.md" />
+    <MESSAGE value="backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="backup" />
   </component>
 </project>

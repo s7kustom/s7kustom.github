@@ -22,7 +22,7 @@ body {
 }
 
 
-.container {
+.header {
     display: grid;
     grid-template-columns: 100fr 100fr 100fr;
     column-gap: 50px;
@@ -40,7 +40,7 @@ body {
 }
 
 
-.infostwo {
+.infos {
     align-items: center;
     margin-right: 5em;
     text-align: end;
@@ -52,21 +52,21 @@ body {
 }
 
 .fa-phone{
-    color: orange;
+    color: #f45154;
     margin-left: 1em;
 }
 
 .fa-location-dot{
-    color: orange;
+    color: #f45154;
     margin-left: 1em;
 }
 
 .fa-envelope{
-    color: orange;
+    color: #f45154;
     margin-left: 1em;
 }
 
-.description-container {
+.description {
     padding-top: 2em;
     padding-bottom: 1em;
     text-align: start;
@@ -74,7 +74,7 @@ body {
     padding-right: 5em;
 }
 
-.grid-containerone {
+.skills {
       display: grid;
       grid-template-columns: auto auto auto auto;
       align-items: center;
@@ -82,10 +82,11 @@ body {
 }
 
 .test {
-
+    text-align: end;
+    margin-top: 1em;
 }
 
-.progress-container {
+.progressbar {
     background-color: #e8e8e8;
     height: 9px;
     width: 10em;
@@ -124,7 +125,7 @@ body {
     font-weight: bold;
 }
 
-.grid-containertwo {
+.training {
       display: grid;
       grid-template-columns: 100fr 300fr;
       padding-left: 5em;
@@ -132,7 +133,7 @@ body {
 }
 
 
-.grid-containerthree {
+.exp {
       display: grid;
       grid-template-columns: 100fr 300fr;
       padding-left: 5em;
@@ -140,16 +141,24 @@ body {
 
 }
 
-.container-four {
+.interest {
+    display: grid;
+    grid-template-columns: 100fr 2900fr;
     padding-left: 4.5em;
     padding-right: 4.5em;
     height: 8em;
     position: relative;
 }
 
+.icon {
+   display: grid;
+   align-items: center;
 
+}
 
-
+.text {
+   align-items: center;
+}
 
 
 
