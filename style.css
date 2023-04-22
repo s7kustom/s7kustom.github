@@ -33,19 +33,17 @@ body {
 }
 
 .picture {
-    height: 15.625em;
-    width: 15.625em;
+    height: 14.625em;
+    width: 14.625em;
     border-radius: 50%;
     margin-left: 3.5em;
 }
 
-.infos {
-
-}
 
 .infostwo {
     align-items: center;
-    margin-left: 10em;
+    margin-right: 5em;
+    text-align: end;
 }
 
 .name {
@@ -55,14 +53,17 @@ body {
 
 .fa-phone{
     color: orange;
+    margin-left: 1em;
 }
 
 .fa-location-dot{
     color: orange;
+    margin-left: 1em;
 }
 
 .fa-envelope{
     color: orange;
+    margin-left: 1em;
 }
 
 .description-container {
