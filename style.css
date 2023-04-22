@@ -85,14 +85,30 @@ body {
 }
 
 .progress-container {
-    background-color: grey;
+    background-color: #e8e8e8;
     height: 9px;
     width: 10em;
     border-radius: 50px;
     margin: 0.6em;
 }
 
-.value {
+.valueone {
+    background-color: red;
+    width: 10em;
+    height: 9px;
+    border-radius: 50px;
+
+}
+
+.valuetwo {
+    background-color: red;
+    width: 8em;
+    height: 9px;
+    border-radius: 50px;
+
+}
+
+.valuethree {
     background-color: red;
     width: 5em;
     height: 9px;
