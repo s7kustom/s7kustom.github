@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="459df0c1-50db-4cdb-85d7-63b1d493844b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="459df0c1-50db-4cdb-85d7-63b1d493844b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682087685261</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Replace image">
+      <created>1682114384737</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1682114384737</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -259,6 +263,7 @@
     <MESSAGE value="backup" />
     <MESSAGE value="modif header" />
     <MESSAGE value="MAJ README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="MAJ README.md" />
+    <MESSAGE value="Replace image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace image" />
   </component>
 </project>
