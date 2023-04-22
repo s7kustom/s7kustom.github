@@ -93,7 +93,7 @@ body {
 }
 
 .valueone {
-    background-color: red;
+    background-color: #fc5a4c;
     width: 10em;
     height: 9px;
     border-radius: 50px;
@@ -101,7 +101,7 @@ body {
 }
 
 .valuetwo {
-    background-color: red;
+    background-color: #fc5a4c;
     width: 8em;
     height: 9px;
     border-radius: 50px;
@@ -109,7 +109,7 @@ body {
 }
 
 .valuethree {
-    background-color: red;
+    background-color: #fc5a4c;
     width: 5em;
     height: 9px;
     border-radius: 50px;
