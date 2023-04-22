@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="459df0c1-50db-4cdb-85d7-63b1d493844b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/image.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -275,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682135983170</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Résolution icone index">
+      <created>1682182668851</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1682182668851</updated>
+    </task>
+    <task id="LOCAL-00034" summary="MAJ README.md">
+      <created>1682182762518</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1682182762518</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -305,6 +316,7 @@
     <MESSAGE value="Replace image" />
     <MESSAGE value="back up" />
     <MESSAGE value="progressbar" />
+    <MESSAGE value="Résolution icone index" />
     <MESSAGE value="MAJ README.md" />
     <option name="LAST_COMMIT_MESSAGE" value="MAJ README.md" />
   </component>
