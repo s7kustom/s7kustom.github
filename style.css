@@ -69,16 +69,16 @@ body {
 .description {
     padding-top: 2em;
     padding-bottom: 1em;
-    text-align: start;
+    text-align: justify;
     padding-left: 5em;
     padding-right: 5em;
 }
 
 .skills {
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      align-items: center;
-      padding-left: 5em;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    padding-left: 5em;
 }
 
 .test {
@@ -126,38 +126,42 @@ body {
 }
 
 .training {
-      display: grid;
-      grid-template-columns: 100fr 300fr;
-      padding-left: 5em;
-      padding-right: 5em;
+    display: grid;
+    grid-template-columns: 100fr 300fr;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
+.years {
+
+}
 
 .exp {
-      display: grid;
-      grid-template-columns: 100fr 300fr;
-      padding-left: 5em;
-      padding-right: 5em;
+    display: grid;
+    grid-template-columns: 100fr 300fr;
+    padding-left: 5em;
+    padding-right: 5em;
 
 }
 
 .interest {
     display: grid;
-    grid-template-columns: 100fr 2900fr;
+    grid-template-columns: 55fr 2900fr;
     padding-left: 4.5em;
     padding-right: 4.5em;
-    height: 8em;
-    position: relative;
+    height: 10em;
+    margin: 1px;
 }
 
 .icon {
    display: grid;
    align-items: center;
-
 }
 
 .text {
+   display: grid;
    align-items: center;
+
 }
 
 
