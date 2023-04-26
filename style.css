@@ -141,7 +141,6 @@ body {
     grid-template-columns: 100fr 300fr;
     padding-left: 5em;
     padding-right: 5em;
-
 }
 
 .interest {
@@ -154,14 +153,13 @@ body {
 }
 
 .icon {
-   display: grid;
-   align-items: center;
+    display: grid;
+    align-items: center;
 }
 
 .text {
-   display: grid;
-   align-items: center;
-
+    display: grid;
+    align-items: center;
 }
 
 
