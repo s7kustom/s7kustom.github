@@ -3,6 +3,7 @@ html {
     background-color: #1f1f1f;
 }
 
+
 body {
     background-color: white;
     margin-left: auto;
@@ -11,6 +12,10 @@ body {
     border: 1px solid black;
     font-family: 'Roboto', sans-serif;
     /*padding:30px;*/
+}
+
+.header li {
+    list-style-type:none;
 }
 
 .bold {
@@ -24,31 +29,27 @@ body {
 
 .header {
     display: grid;
-    grid-template-columns: 100fr 100fr 100fr;
-    column-gap: 50px;
-    align-items: center;
-    height: 18em;
+    grid-template-columns: 50fr 100fr 100fr;
     background-color: #052767;
     color: white;
+    align-items: center;
 }
 
 .picture {
-    height: 14.625em;
-    width: 14.625em;
+    height: 12.625em;
+    width: 12.625em;
     border-radius: 50%;
-    margin-left: 3.5em;
+    margin: 20px 55px;
 }
 
-
 .infos {
-    align-items: center;
     margin-right: 5em;
     text-align: end;
+
 }
 
 .name {
-    font-size: 4.5em;
-    line-height: 10px;
+    font-size: 3.5em;
 }
 
 .fa-phone{
@@ -81,9 +82,9 @@ body {
     padding-left: 5em;
 }
 
-.test {
+.lang {
     text-align: end;
-    margin-top: 1em;
+    height: fit-content;
 }
 
 .progressbar {
@@ -130,9 +131,7 @@ body {
     grid-template-columns: 100fr 300fr;
     padding-left: 5em;
     padding-right: 5em;
-}
-
-.years {
+    height: fit-content;
 
 }
 
@@ -148,7 +147,6 @@ body {
     grid-template-columns: 55fr 2900fr;
     padding-left: 4.5em;
     padding-right: 4.5em;
-    height: 10em;
     margin: 1px;
 }
 
