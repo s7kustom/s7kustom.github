@@ -76,15 +76,16 @@ body {
 }
 
 .skills {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
     align-items: center;
-    padding-left: 5em;
+    padding-left: 4em;
+    padding-right: 4em;
+    justify-content: space-around;
 }
 
 .lang {
-    text-align: end;
     list-style-type:none;
+
 }
 
 .progressbar {
@@ -127,27 +128,29 @@ body {
 }
 
 .training {
-    display: grid;
-    grid-template-columns: 100fr 300fr;
-    padding-left: 5em;
-    padding-right: 5em;
+    display: flex;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .exp {
-    display: grid;
-    grid-template-columns: 100fr 300fr;
-    padding-left: 5em;
-    padding-right: 5em;
+    display: flex;
+    padding-left: 3em;
+
+}
+
+.task {
+    padding-left: 135px;
 }
 
 .interest {
     display: flex;
-    padding-left: 4.5em;
-    padding-right: 4.5em;
+    padding-left: 5em;
 }
 
 .interest ul {
     margin: 2px;
+    padding: 0;
 }
 
 .icon {
@@ -155,7 +158,7 @@ body {
 }
 
 .text {
-    padding-left: 5px;
+
 }
 
 
