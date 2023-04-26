@@ -28,8 +28,7 @@ body {
 
 
 .header {
-    display: grid;
-    grid-template-columns: 100fr 200fr auto;
+    display: flex;
     background-color: #052767;
     color: white;
     align-items: center;
@@ -47,7 +46,7 @@ body {
 }
 
 .infos {
-    margin-right: 5em;
+    margin-left: 310px;
     text-align: end;
 }
 
@@ -78,8 +77,8 @@ body {
 .skills {
     display: flex;
     align-items: center;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 1.2em;
+    padding-right: 2.5em;
     justify-content: space-around;
 }
 

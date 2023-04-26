@@ -351,14 +351,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682525849720</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="TEST&#10;(header grid)&#10;all (flex)">
+      <created>1682529927503</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1682529927503</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="header&#10;description" />
     <MESSAGE value="main et footer&#10;disposition&#10;icones&#10;progressbar" />
     <MESSAGE value="nouveau modele de container avec grid" />
     <MESSAGE value="update light (bg body)" />
@@ -383,6 +389,7 @@
     <MESSAGE value="maj &#10;&lt;p&gt; vers &gt;li&gt;&#10;refonte complete des classes" />
     <MESSAGE value="backup&#10;refonte complete des classes" />
     <MESSAGE value="TEST&#10;&quot;interest&quot;&#10;en flex au lieu de grid" />
-    <option name="LAST_COMMIT_MESSAGE" value="TEST&#10;&quot;interest&quot;&#10;en flex au lieu de grid" />
+    <MESSAGE value="TEST&#10;(header grid)&#10;all (flex)" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEST&#10;(header grid)&#10;all (flex)" />
   </component>
 </project>
