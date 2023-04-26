@@ -29,7 +29,7 @@ body {
 
 .header {
     display: grid;
-    grid-template-columns: 50fr 100fr 100fr;
+    grid-template-columns: 100fr 200fr auto;
     background-color: #052767;
     color: white;
     align-items: center;
@@ -57,17 +57,14 @@ body {
 
 .fa-phone{
     color: #f45154;
-    margin-left: 1em;
 }
 
 .fa-location-dot{
     color: #f45154;
-    margin-left: 1em;
 }
 
 .fa-envelope{
     color: #f45154;
-    margin-left: 1em;
 }
 
 .description {
@@ -144,23 +141,22 @@ body {
 }
 
 .interest {
-    display: grid;
-    grid-template-columns: 55fr 2900fr;
+    display: flex;
     padding-left: 4.5em;
     padding-right: 4.5em;
-    margin: 1px;
+}
+
+.interest ul {
+    margin: 2px;
 }
 
 .icon {
-    display: grid;
-    align-items: center;
+
 }
 
 .text {
-    display: grid;
-    align-items: center;
+    padding-left: 5px;
 }
-
 
 
 
