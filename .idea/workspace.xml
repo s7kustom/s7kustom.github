@@ -323,14 +323,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682467925453</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="maj &#10;&lt;p&gt; vers &gt;li&gt;&#10;refonte complete des classes">
+      <created>1682475301403</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1682475301403</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Correction apres cours (test)" />
     <MESSAGE value="Test exemple cours index.html" />
     <MESSAGE value="Début projet&#10;Placement header" />
     <MESSAGE value="header&#10;description" />
@@ -355,6 +361,7 @@
     <MESSAGE value="LA MAJ BOITE A QUESTION" />
     <MESSAGE value="modif description" />
     <MESSAGE value="backup" />
-    <option name="LAST_COMMIT_MESSAGE" value="backup" />
+    <MESSAGE value="maj &#10;&lt;p&gt; vers &gt;li&gt;&#10;refonte complete des classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj &#10;&lt;p&gt; vers &gt;li&gt;&#10;refonte complete des classes" />
   </component>
 </project>
