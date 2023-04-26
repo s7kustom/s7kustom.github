@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="459df0c1-50db-4cdb-85d7-63b1d493844b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,14 +356,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682529927503</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="TEST&#10;all (flex)">
+      <created>1682531132064</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1682531132064</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main et footer&#10;disposition&#10;icones&#10;progressbar" />
     <MESSAGE value="nouveau modele de container avec grid" />
     <MESSAGE value="update light (bg body)" />
     <MESSAGE value="update light (general)" />
@@ -390,6 +394,7 @@
     <MESSAGE value="backup&#10;refonte complete des classes" />
     <MESSAGE value="TEST&#10;&quot;interest&quot;&#10;en flex au lieu de grid" />
     <MESSAGE value="TEST&#10;(header grid)&#10;all (flex)" />
-    <option name="LAST_COMMIT_MESSAGE" value="TEST&#10;(header grid)&#10;all (flex)" />
+    <MESSAGE value="TEST&#10;all (flex)" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEST&#10;all (flex)" />
   </component>
 </project>
