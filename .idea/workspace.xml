@@ -4,6 +4,7 @@
     <list default="true" id="459df0c1-50db-4cdb-85d7-63b1d493844b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681828807429</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Ajout index.html&#10;      style.css&#10;      READ.md">
-      <created>1681831594734</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681831594734</updated>
     </task>
     <task id="LOCAL-00002" summary="Correction README.md (Image)">
       <created>1681831735560</created>
@@ -392,14 +386,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682553804853</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="backup icon class">
+      <created>1682555743331</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1682555743331</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update light (general)" />
     <MESSAGE value="update light (header)" />
     <MESSAGE value="update light (h3--&gt;h2)" />
     <MESSAGE value="progressbar homemade" />
@@ -424,6 +424,7 @@
     <MESSAGE value="TEST&#10;all (flex)" />
     <MESSAGE value="MAJ readme" />
     <MESSAGE value="header infos" />
-    <option name="LAST_COMMIT_MESSAGE" value="header infos" />
+    <MESSAGE value="backup icon class" />
+    <option name="LAST_COMMIT_MESSAGE" value="backup icon class" />
   </component>
 </project>
