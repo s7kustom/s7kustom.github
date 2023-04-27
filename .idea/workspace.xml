@@ -371,14 +371,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682531363234</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="header infos">
+      <created>1682531947360</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1682531947360</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update light (bg body)" />
     <MESSAGE value="update light (general)" />
     <MESSAGE value="update light (header)" />
     <MESSAGE value="update light (h3--&gt;h2)" />
@@ -403,6 +409,7 @@
     <MESSAGE value="TEST&#10;(header grid)&#10;all (flex)" />
     <MESSAGE value="TEST&#10;all (flex)" />
     <MESSAGE value="MAJ readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="MAJ readme" />
+    <MESSAGE value="header infos" />
+    <option name="LAST_COMMIT_MESSAGE" value="header infos" />
   </component>
 </project>
