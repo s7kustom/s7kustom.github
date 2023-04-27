@@ -78,9 +78,20 @@ body {
     padding-right: 2.5em;
 }
 
+.skillstest {
+    display: flex;
+}
+
+ /* margin sur une .skillstest div nique ma progressbar ??
+
+.skillstest div {
+    margin: 2px;
+}
+
+ */
+
 .lang {
     list-style-type:none;
-
 }
 
 .progressbar {

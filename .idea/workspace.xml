@@ -50,13 +50,6 @@
       <option name="presentableId" value="Default" />
       <updated>1681828807429</updated>
     </task>
-    <task id="LOCAL-00002" summary="Correction README.md (Image)">
-      <created>1681831735560</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1681831735560</updated>
-    </task>
     <task id="LOCAL-00003" summary="Correction apres cours (test)">
       <created>1681834977217</created>
       <option name="number" value="00003" />
@@ -393,14 +386,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682555743331</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="maj section main">
+      <created>1682557970808</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1682557970808</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update light (header)" />
     <MESSAGE value="update light (h3--&gt;h2)" />
     <MESSAGE value="progressbar homemade" />
     <MESSAGE value="background html" />
@@ -425,6 +424,7 @@
     <MESSAGE value="MAJ readme" />
     <MESSAGE value="header infos" />
     <MESSAGE value="backup icon class" />
-    <option name="LAST_COMMIT_MESSAGE" value="backup icon class" />
+    <MESSAGE value="maj section main" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj section main" />
   </component>
 </project>
